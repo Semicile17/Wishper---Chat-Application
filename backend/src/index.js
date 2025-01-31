@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://wishper-chat-application-py5111toy-semiciles-projects.vercel.app/",
+    origin: "https://wishper-chat-application.vercel.app/",
     credentials: true,
   })
 );
